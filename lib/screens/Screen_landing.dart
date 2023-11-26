@@ -18,21 +18,12 @@ class Screen_landing extends StatelessWidget {
        body: Column(
   mainAxisSize: MainAxisSize.min,
   children: [
-       Container(
-  decoration: BoxDecoration(
-    color:Color.fromRGBO(
+       Container(decoration: BoxDecoration(
+color:Color.fromRGBO(
 247,247,247,1.0)
 ,
 
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(0),
- topRight: Radius.circular(0.0),
- bottomLeft: Radius.circular(0.0),
- bottomRight: Radius.circular(0),
-),
-
-    
-  ),
-child: //landing
+),child: //landing
 Container(
   
 
@@ -42,28 +33,17 @@ child: Column(
  crossAxisAlignment: CrossAxisAlignment.center,
 
   children: [
-Container(
-  decoration: BoxDecoration(
-    color:Color.fromRGBO(
+Container(decoration: BoxDecoration(
+color:Color.fromRGBO(
 222,230,254,1.0)
 ,
 
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(0),
- topRight: Radius.circular(0.0),
- bottomLeft: Radius.circular(0.0),
- bottomRight: Radius.circular(0),
-),
-
-    
-  ),
-child: //Frame 12
+),child: //Frame 12
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 9, horizontal: 57),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.spaceBetween,
  crossAxisAlignment: CrossAxisAlignment.start,
@@ -106,25 +86,14 @@ child: Row(
 Column(
   mainAxisSize: MainAxisSize.min,
   children: [
-       Container(
-  decoration: BoxDecoration(
-    
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(20),
- topRight: Radius.circular(20.0),
- bottomLeft: Radius.circular(20.0),
- bottomRight: Radius.circular(20),
-),
+       Container(decoration: BoxDecoration(
 
-    
-  ),
-child: //Frame 13
+),child: //Frame 13
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 53),
-
 child: Column(
    mainAxisAlignment: MainAxisAlignment.center,
  crossAxisAlignment: CrossAxisAlignment.center,
@@ -165,36 +134,22 @@ color:Color.fromRGBO(
 ],
 
 ),
-
 ),
 ),
-),
-
   ],
 ),
 
 SizedBox( width: 32,),Row(
   mainAxisSize: MainAxisSize.min,
   children: [
-      Container(
-  decoration: BoxDecoration(
-    
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(20),
- topRight: Radius.circular(20.0),
- bottomLeft: Radius.circular(20.0),
- bottomRight: Radius.circular(20),
-),
+      Container(decoration: BoxDecoration(
 
-    
-  ),
-child: //Frame 13
+),child: //Frame 13
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 47),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.center,
  crossAxisAlignment: CrossAxisAlignment.center,
@@ -231,36 +186,22 @@ GestureDetector(
 ],
 
 ),
-
 ),
 ),
-),
-
   ],
 ),
 
 SizedBox( width: 32,),Row(
   mainAxisSize: MainAxisSize.min,
   children: [
-      Container(
-  decoration: BoxDecoration(
-    
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(20),
- topRight: Radius.circular(20.0),
- bottomLeft: Radius.circular(20.0),
- bottomRight: Radius.circular(20),
-),
+      Container(decoration: BoxDecoration(
 
-    
-  ),
-child: //Frame 13
+),child: //Frame 13
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 53),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.center,
  crossAxisAlignment: CrossAxisAlignment.center,
@@ -297,8 +238,12 @@ GestureDetector(
 ],
 
 ),
-
 ),
+),
+  ],
+),
+],
+
 ),
 ),
 
@@ -308,16 +253,7 @@ GestureDetector(
 
 ),
 ),
-  ],
 ),
-],
-
-),
-
-),
-),
-),
-
 SizedBox( height: 66,),Row(
   mainAxisSize: MainAxisSize.min,
   children: [
@@ -326,16 +262,14 @@ Container(
   clipBehavior: Clip.none,
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 30, horizontal: 50),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.start,
  crossAxisAlignment: CrossAxisAlignment.center,
 
   children: [
 SvgPicture.network(
-  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/301209009362?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231109T131524Z&X-Amz-SignedHeaders=host&X-Amz-Expires=359999&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231109%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=b7f0e474da305467e8e5c1acff9c45a466e6fac93b53d8b7c875ec44098dbb86",
+  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/1148044124081?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231126T180807Z&X-Amz-SignedHeaders=host&X-Amz-Expires=360000&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231126%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=67a89085d2ecfe58404cf6a71428219a1b46f696a5bcf9b57f568b8e43fdc056",
   height: 431.0,
   width: 675.0,
 ),
@@ -413,6 +347,7 @@ SizedBox( height: 15,),Container(
 
 ),
 ),
+
   ],
 ),
 
@@ -424,28 +359,17 @@ SizedBox( height: 32,),Row(
         Navigator.push(context,
             MaterialPageRoute(builder: (context) => Screen_login()));
     },
-    child: Container(
-  decoration: BoxDecoration(
-    color:Color.fromRGBO(
+    child: Container(decoration: BoxDecoration(
+color:Color.fromRGBO(
 33,36,39,1.0)
 ,
 
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(20),
- topRight: Radius.circular(20.0),
- bottomLeft: Radius.circular(20.0),
- bottomRight: Radius.circular(20),
-),
-
-    
-  ),
-child: //Frame 20
+),child: //Frame 20
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.center,
  crossAxisAlignment: CrossAxisAlignment.center,
@@ -475,11 +399,8 @@ Container(
 ],
 
 ),
-
 ),
 ),
-),
-
 ),
 
   ],
@@ -488,22 +409,21 @@ Container(
 
 ),
 ),
-  ],
-),
-],
 
-),
-
-),
-),
   ],
 ),
 ],
 
 ),
 ),
-),
 
+  ],
+),
+],
+
+),
+),
+),
   ],
 ),
 

@@ -20,21 +20,12 @@ class Screen_change_password extends StatelessWidget {
        body: Column(
   mainAxisSize: MainAxisSize.min,
   children: [
-       Container(
-  decoration: BoxDecoration(
-    color:Color.fromRGBO(
+       Container(decoration: BoxDecoration(
+color:Color.fromRGBO(
 247,247,247,1.0)
 ,
 
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(0),
- topRight: Radius.circular(0.0),
- bottomLeft: Radius.circular(0.0),
- bottomRight: Radius.circular(0),
-),
-
-    
-  ),
-child: //change password
+),child: //change password
 Container(
   
 
@@ -44,28 +35,17 @@ child: Column(
  crossAxisAlignment: CrossAxisAlignment.start,
 
   children: [
-Container(
-  decoration: BoxDecoration(
-    color:Color.fromRGBO(
+Container(decoration: BoxDecoration(
+color:Color.fromRGBO(
 222,230,254,1.0)
 ,
 
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(0),
- topRight: Radius.circular(0.0),
- bottomLeft: Radius.circular(0.0),
- bottomRight: Radius.circular(0),
-),
-
-    
-  ),
-child: //Frame 12
+),child: //Frame 12
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 9, horizontal: 50),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.spaceBetween,
  crossAxisAlignment: CrossAxisAlignment.start,
@@ -108,25 +88,14 @@ child: Row(
 Row(
   mainAxisSize: MainAxisSize.min,
   children: [
-      Container(
-  decoration: BoxDecoration(
-    
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(20),
- topRight: Radius.circular(20.0),
- bottomLeft: Radius.circular(20.0),
- bottomRight: Radius.circular(20),
-),
+      Container(decoration: BoxDecoration(
 
-    
-  ),
-child: //Frame 13
+),child: //Frame 13
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 53),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.center,
  crossAxisAlignment: CrossAxisAlignment.center,
@@ -163,36 +132,22 @@ GestureDetector(
 ],
 
 ),
-
 ),
 ),
-),
-
   ],
 ),
 
 SizedBox( width: 32,),Row(
   mainAxisSize: MainAxisSize.min,
   children: [
-      Container(
-  decoration: BoxDecoration(
-    
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(20),
- topRight: Radius.circular(20.0),
- bottomLeft: Radius.circular(20.0),
- bottomRight: Radius.circular(20),
-),
+      Container(decoration: BoxDecoration(
 
-    
-  ),
-child: //Frame 13
+),child: //Frame 13
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 33),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.center,
  crossAxisAlignment: CrossAxisAlignment.center,
@@ -229,36 +184,22 @@ GestureDetector(
 ],
 
 ),
-
 ),
 ),
-),
-
   ],
 ),
 
 SizedBox( width: 32,),Column(
   mainAxisSize: MainAxisSize.min,
   children: [
-       Container(
-  decoration: BoxDecoration(
-    
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(20),
- topRight: Radius.circular(20.0),
- bottomLeft: Radius.circular(20.0),
- bottomRight: Radius.circular(20),
-),
+       Container(decoration: BoxDecoration(
 
-    
-  ),
-child: //Frame 13
+),child: //Frame 13
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
-
 child: Column(
    mainAxisAlignment: MainAxisAlignment.center,
  crossAxisAlignment: CrossAxisAlignment.center,
@@ -299,8 +240,12 @@ color:Color.fromRGBO(
 ],
 
 ),
-
 ),
+),
+  ],
+),
+],
+
 ),
 ),
 
@@ -310,36 +255,25 @@ color:Color.fromRGBO(
 
 ),
 ),
-  ],
 ),
-],
-
-),
-
-),
-),
-),
-
 SizedBox( height: 66,),//Frame 794
 Container(
   clipBehavior: Clip.none,
 
   
-child: Padding(
 padding: EdgeInsets.only(
   left: 50,
   top: 0,
   right: 50,
   bottom: 30,
 ),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.center,
  crossAxisAlignment: CrossAxisAlignment.center,
 
   children: [
 SvgPicture.network(
-  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/236457127778?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231109T131527Z&X-Amz-SignedHeaders=host&X-Amz-Expires=360000&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231109%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=3e29eca8097f661d6a719889a0a9f65368d01958e806a0038ef1594780798db4",
+  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/337662105205?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231126T180811Z&X-Amz-SignedHeaders=host&X-Amz-Expires=359999&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231126%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=96bae412bc860687a198fe82acdb1f08a27a5b35db9b9e457ee7d7b18e51364c",
   height: 473.0,
   width: 695.0,
 ),
@@ -429,25 +363,14 @@ Expanded(
   child: Column(
   mainAxisSize: MainAxisSize.min,
 
-  children: [Container(
-  decoration: BoxDecoration(
-    
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(5),
- topRight: Radius.circular(5.0),
- bottomLeft: Radius.circular(5.0),
- bottomRight: Radius.circular(5),
-),
+  children: [Container(decoration: BoxDecoration(
 
-    border: Border.all(width: 1, color: Color.fromRGBO(29,31,34,1),),
-  ),
-child: //Frame 10
+),child: //Frame 10
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 16),
-
 child: Column(
    mainAxisAlignment: MainAxisAlignment.start,
  crossAxisAlignment: CrossAxisAlignment.start,
@@ -463,21 +386,12 @@ child: Row(
  crossAxisAlignment: CrossAxisAlignment.start,
 
   children: [
-Container(
-  decoration: BoxDecoration(
-    color:Color.fromRGBO(
+Container(decoration: BoxDecoration(
+color:Color.fromRGBO(
 255,255,255,1.0)
 ,
 
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(0),
- topRight: Radius.circular(0.0),
- bottomLeft: Radius.circular(0.0),
- bottomRight: Radius.circular(0),
-),
-
-    
-  ),
-child: //heroicons-solid:lock-closed
+),child: //heroicons-solid:lock-closed
 Container(
   
 
@@ -494,7 +408,7 @@ Positioned(
 	top: constraints.maxHeight * 0.1,
 	
     child: SvgPicture.network(
-  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/10431679340?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231109T131527Z&X-Amz-SignedHeaders=host&X-Amz-Expires=360000&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231109%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=d317fe99b104bed888723d3aa809aeebe3c41a2ebda83cd477b44966f311a5c1",
+  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/71211575196?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231126T180811Z&X-Amz-SignedHeaders=host&X-Amz-Expires=360000&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231126%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=7dfcd62efbf507ba522922db61be97ab5354c24fd787bee7338c574b8aa23a3b",
   height: 17.0,
   width: 15.0,
 ),
@@ -503,9 +417,8 @@ Positioned(
 ],
 
 ),
-),),
 ),
-
+),),
 SizedBox( width: 8,),Container(
     child: Text(
     "New Password",
@@ -530,33 +443,22 @@ SizedBox( width: 8,),Container(
 ],
 
 ),
-),],
-
-),
-
-),
-),
 ),
 ],
+
+),
+),
+),],
 ),
 
 ),
 
-SizedBox( width: 15,),Container(
-  decoration: BoxDecoration(
-    color:Color.fromRGBO(
+SizedBox( width: 15,),Container(decoration: BoxDecoration(
+color:Color.fromRGBO(
 255,255,255,1.0)
 ,
 
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(0),
- topRight: Radius.circular(0.0),
- bottomLeft: Radius.circular(0.0),
- bottomRight: Radius.circular(0),
-),
-
-    
-  ),
-child: //ant-design:eye-invisible-filled
+),child: //ant-design:eye-invisible-filled
 Container(
   
 
@@ -573,7 +475,7 @@ Positioned(
 	top: constraints.maxHeight * 0.0625,
 	
     child: SvgPicture.network(
-  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/55339964008?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231109T131527Z&X-Amz-SignedHeaders=host&X-Amz-Expires=359999&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231109%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=bb183887ce6540300ae95c0a3ccf8133f093a1b34aea012ceec7511450326e00",
+  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/74842616947?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231126T180811Z&X-Amz-SignedHeaders=host&X-Amz-Expires=359999&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231126%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=12d33449fc37d5dcfc61553c73bbd21554cecd2d1e2fe87f4d245b20f8dd2470",
   height: 13.0,
   width: 14.0,
 ),
@@ -584,7 +486,7 @@ Positioned(
 	top: constraints.maxHeight * 0.25,
 	
     child: SvgPicture.network(
-  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/4467559384?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231109T131528Z&X-Amz-SignedHeaders=host&X-Amz-Expires=359999&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231109%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=2909053d3f560c4eeb7042793fda7a993b5fab8b82c439842d3a6990e73617c1",
+  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/2006763835?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231126T180811Z&X-Amz-SignedHeaders=host&X-Amz-Expires=360000&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231126%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=564aff44b625a97e501670fe4f9c2f9b5a5e7a92731df9cab74af500e841ebf9",
   height: 9.0,
   width: 11.0,
 ),
@@ -593,12 +495,12 @@ Positioned(
 ],
 
 ),
-),),
 ),
-],
+),),],
 
 ),
 ),
+
 SizedBox( height: 32,),//Frame 791
 Container(
   clipBehavior: Clip.none,
@@ -614,25 +516,14 @@ Expanded(
   child: Column(
   mainAxisSize: MainAxisSize.min,
 
-  children: [Container(
-  decoration: BoxDecoration(
-    
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(5),
- topRight: Radius.circular(5.0),
- bottomLeft: Radius.circular(5.0),
- bottomRight: Radius.circular(5),
-),
+  children: [Container(decoration: BoxDecoration(
 
-    border: Border.all(width: 1, color: Color.fromRGBO(29,31,34,1),),
-  ),
-child: //Frame 10
+),child: //Frame 10
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 16),
-
 child: Column(
    mainAxisAlignment: MainAxisAlignment.start,
  crossAxisAlignment: CrossAxisAlignment.start,
@@ -648,21 +539,12 @@ child: Row(
  crossAxisAlignment: CrossAxisAlignment.start,
 
   children: [
-Container(
-  decoration: BoxDecoration(
-    color:Color.fromRGBO(
+Container(decoration: BoxDecoration(
+color:Color.fromRGBO(
 255,255,255,1.0)
 ,
 
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(0),
- topRight: Radius.circular(0.0),
- bottomLeft: Radius.circular(0.0),
- bottomRight: Radius.circular(0),
-),
-
-    
-  ),
-child: //heroicons-solid:lock-closed
+),child: //heroicons-solid:lock-closed
 Container(
   
 
@@ -679,7 +561,7 @@ Positioned(
 	top: constraints.maxHeight * 0.1,
 	
     child: SvgPicture.network(
-  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/10431679340?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231109T131528Z&X-Amz-SignedHeaders=host&X-Amz-Expires=360000&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231109%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=b1558319981f6e5ddd998517794468668fc83af2463fcef77a413ade2f0794d9",
+  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/71211575196?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231126T180811Z&X-Amz-SignedHeaders=host&X-Amz-Expires=359999&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231126%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=febd474fc6a4735c593846275c250e00743ab9bd73d5dcc01e638fa5a527c090",
   height: 17.0,
   width: 15.0,
 ),
@@ -688,9 +570,8 @@ Positioned(
 ],
 
 ),
-),),
 ),
-
+),),
 SizedBox( width: 8,),Container(
     child: Text(
     "Confirm Password",
@@ -715,33 +596,22 @@ SizedBox( width: 8,),Container(
 ],
 
 ),
-),],
-
-),
-
-),
-),
 ),
 ],
+
+),
+),
+),],
 ),
 
 ),
 
-SizedBox( width: 15,),Container(
-  decoration: BoxDecoration(
-    color:Color.fromRGBO(
+SizedBox( width: 15,),Container(decoration: BoxDecoration(
+color:Color.fromRGBO(
 255,255,255,1.0)
 ,
 
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(0),
- topRight: Radius.circular(0.0),
- bottomLeft: Radius.circular(0.0),
- bottomRight: Radius.circular(0),
-),
-
-    
-  ),
-child: //ant-design:eye-invisible-filled
+),child: //ant-design:eye-invisible-filled
 Container(
   
 
@@ -758,7 +628,7 @@ Positioned(
 	top: constraints.maxHeight * 0.0625,
 	
     child: SvgPicture.network(
-  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/55339964008?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231109T131528Z&X-Amz-SignedHeaders=host&X-Amz-Expires=360000&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231109%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=6ee6bc5affa38447805ea73d680f8f85b72e4bccc4610cd0c78b6774d99c7407",
+  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/74842616947?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231126T180811Z&X-Amz-SignedHeaders=host&X-Amz-Expires=360000&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231126%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=84737100b47841da19ee1ecfc9c3cc0b5aad89620e55d4b749c9d7c063db95bc",
   height: 13.0,
   width: 14.0,
 ),
@@ -769,7 +639,7 @@ Positioned(
 	top: constraints.maxHeight * 0.25,
 	
     child: SvgPicture.network(
-  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/4467559384?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231109T131528Z&X-Amz-SignedHeaders=host&X-Amz-Expires=359999&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231109%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=2909053d3f560c4eeb7042793fda7a993b5fab8b82c439842d3a6990e73617c1",
+  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/2006763835?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231126T180811Z&X-Amz-SignedHeaders=host&X-Amz-Expires=360000&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231126%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=564aff44b625a97e501670fe4f9c2f9b5a5e7a92731df9cab74af500e841ebf9",
   height: 9.0,
   width: 11.0,
 ),
@@ -778,12 +648,12 @@ Positioned(
 ],
 
 ),
-),),
 ),
-],
+),),],
 
 ),
 ),
+
 SizedBox( height: 32,),Row(
   mainAxisSize: MainAxisSize.min,
   children: [
@@ -792,28 +662,17 @@ SizedBox( height: 32,),Row(
         Navigator.push(context,
             MaterialPageRoute(builder: (context) => Screen_login()));
     },
-    child: Container(
-  decoration: BoxDecoration(
-    color:Color.fromRGBO(
+    child: Container(decoration: BoxDecoration(
+color:Color.fromRGBO(
 33,36,39,1.0)
 ,
 
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(5),
- topRight: Radius.circular(5.0),
- bottomLeft: Radius.circular(5.0),
- bottomRight: Radius.circular(5),
-),
-
-    
-  ),
-child: //Frame 10
+),child: //Frame 10
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 174),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.center,
  crossAxisAlignment: CrossAxisAlignment.center,
@@ -843,11 +702,8 @@ Container(
 ],
 
 ),
-
 ),
 ),
-),
-
 ),
 
   ],
@@ -856,25 +712,25 @@ Container(
 
 ),
 ),
+
   ],
 ),
 ],
 
 ),
 ),
+
   ],
 ),
 ],
 
 ),
+),
+],
 
 ),
-),],
-
 ),
 ),
-),
-
   ],
 ),
 

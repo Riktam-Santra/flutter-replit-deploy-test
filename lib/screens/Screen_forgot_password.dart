@@ -20,21 +20,12 @@ class Screen_forgot_password extends StatelessWidget {
        body: Column(
   mainAxisSize: MainAxisSize.min,
   children: [
-       Container(
-  decoration: BoxDecoration(
-    color:Color.fromRGBO(
+       Container(decoration: BoxDecoration(
+color:Color.fromRGBO(
 247,247,247,1.0)
 ,
 
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(0),
- topRight: Radius.circular(0.0),
- bottomLeft: Radius.circular(0.0),
- bottomRight: Radius.circular(0),
-),
-
-    
-  ),
-child: //forgot password
+),child: //forgot password
 Container(
   
 
@@ -44,28 +35,17 @@ child: Column(
  crossAxisAlignment: CrossAxisAlignment.center,
 
   children: [
-Container(
-  decoration: BoxDecoration(
-    color:Color.fromRGBO(
+Container(decoration: BoxDecoration(
+color:Color.fromRGBO(
 222,230,254,1.0)
 ,
 
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(0),
- topRight: Radius.circular(0.0),
- bottomLeft: Radius.circular(0.0),
- bottomRight: Radius.circular(0),
-),
-
-    
-  ),
-child: //Frame 12
+),child: //Frame 12
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 9, horizontal: 50),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.spaceBetween,
  crossAxisAlignment: CrossAxisAlignment.start,
@@ -108,25 +88,14 @@ child: Row(
 Row(
   mainAxisSize: MainAxisSize.min,
   children: [
-      Container(
-  decoration: BoxDecoration(
-    
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(20),
- topRight: Radius.circular(20.0),
- bottomLeft: Radius.circular(20.0),
- bottomRight: Radius.circular(20),
-),
+      Container(decoration: BoxDecoration(
 
-    
-  ),
-child: //Frame 13
+),child: //Frame 13
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 53),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.center,
  crossAxisAlignment: CrossAxisAlignment.center,
@@ -163,36 +132,22 @@ GestureDetector(
 ],
 
 ),
-
 ),
 ),
-),
-
   ],
 ),
 
 SizedBox( width: 32,),Row(
   mainAxisSize: MainAxisSize.min,
   children: [
-      Container(
-  decoration: BoxDecoration(
-    
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(20),
- topRight: Radius.circular(20.0),
- bottomLeft: Radius.circular(20.0),
- bottomRight: Radius.circular(20),
-),
+      Container(decoration: BoxDecoration(
 
-    
-  ),
-child: //Frame 13
+),child: //Frame 13
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 33),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.center,
  crossAxisAlignment: CrossAxisAlignment.center,
@@ -229,36 +184,22 @@ GestureDetector(
 ],
 
 ),
-
 ),
 ),
-),
-
   ],
 ),
 
 SizedBox( width: 32,),Column(
   mainAxisSize: MainAxisSize.min,
   children: [
-       Container(
-  decoration: BoxDecoration(
-    
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(20),
- topRight: Radius.circular(20.0),
- bottomLeft: Radius.circular(20.0),
- bottomRight: Radius.circular(20),
-),
+       Container(decoration: BoxDecoration(
 
-    
-  ),
-child: //Frame 13
+),child: //Frame 13
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
-
 child: Column(
    mainAxisAlignment: MainAxisAlignment.center,
  crossAxisAlignment: CrossAxisAlignment.center,
@@ -299,8 +240,12 @@ color:Color.fromRGBO(
 ],
 
 ),
-
 ),
+),
+  ],
+),
+],
+
 ),
 ),
 
@@ -310,37 +255,26 @@ color:Color.fromRGBO(
 
 ),
 ),
-  ],
 ),
-],
-
-),
-
-),
-),
-),
-
 SizedBox( height: 66,),//Frame 802
 Container(
   clipBehavior: Clip.none,
 
   
-width: 1354,
-child: Padding(
 padding: EdgeInsets.only(
   left: 50,
   top: 0,
   right: 50,
   bottom: 30,
 ),
-
+width: 1354,
 child: Row(
    mainAxisAlignment: MainAxisAlignment.start,
  crossAxisAlignment: CrossAxisAlignment.center,
 
   children: [
 SvgPicture.network(
-  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/363484727332?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231109T131527Z&X-Amz-SignedHeaders=host&X-Amz-Expires=360000&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231109%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=6258308932f6cec3ea0cb9843e04790754e97ab8231cd96613440470f2b08233",
+  "https://timon-assets-dev.s3.ap-south-1.amazonaws.com/project/6cb2d8e1-22ba-4723-8212-9585f0bfb669/asset/390332353420?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231126T180810Z&X-Amz-SignedHeaders=host&X-Amz-Expires=359999&X-Amz-Credential=AKIA3TU5OEBRBYBNQRFE%2F20231126%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=986310b3519694da10a5e96337d5369f36df0ff110133e9b494f0adb59f62309",
   height: 473.0,
   width: 627.0,
 ),
@@ -418,29 +352,19 @@ SizedBox( height: 4,),Container(
 ],
 
 ),
-),],
+),
+],
 ),
 
-SizedBox( height: 30,),Container(
-  decoration: BoxDecoration(
-    
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(5),
- topRight: Radius.circular(5.0),
- bottomLeft: Radius.circular(5.0),
- bottomRight: Radius.circular(5),
-),
+SizedBox( height: 30,),Container(decoration: BoxDecoration(
 
-    border: Border.all(width: 1, color: Color.fromRGBO(29,31,34,1),),
-  ),
-child: //Frame 10
+),child: //Frame 10
 Container(
   
 
   
-width: 501,
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 16),
-
+width: 501,
 child: Row(
    mainAxisAlignment: MainAxisAlignment.start,
  crossAxisAlignment: CrossAxisAlignment.center,
@@ -470,11 +394,8 @@ Container(
 ],
 
 ),
-
 ),
 ),
-),
-
 SizedBox( height: 30,),Row(
   mainAxisSize: MainAxisSize.min,
   children: [
@@ -483,28 +404,17 @@ SizedBox( height: 30,),Row(
         Navigator.push(context,
             MaterialPageRoute(builder: (context) => Screen_verification1()));
     },
-    child: Container(
-  decoration: BoxDecoration(
-    color:Color.fromRGBO(
+    child: Container(decoration: BoxDecoration(
+color:Color.fromRGBO(
 33,36,39,1.0)
 ,
 
-     borderRadius: BorderRadius.only( topLeft: Radius.circular(5),
- topRight: Radius.circular(5.0),
- bottomLeft: Radius.circular(5.0),
- bottomRight: Radius.circular(5),
-),
-
-    
-  ),
-child: //Frame 10
+),child: //Frame 10
 Container(
   
 
   
-child: Padding(
 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 212),
-
 child: Row(
    mainAxisAlignment: MainAxisAlignment.center,
  crossAxisAlignment: CrossAxisAlignment.center,
@@ -534,11 +444,8 @@ Container(
 ],
 
 ),
-
 ),
 ),
-),
-
 ),
 
   ],
@@ -546,21 +453,20 @@ Container(
 ],
 
 ),
-),],
+),
+],
 ),
 
 ),
 ],
 
 ),
+),
+],
 
 ),
-),],
-
 ),
 ),
-),
-
   ],
 ),
 
